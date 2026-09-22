@@ -17,4 +17,4 @@ Key queries:
   - Shows how many orders exist in each status (completed, shipped, pending, cancelled).
 
 ## Contact
-- Email: antonio.datasolutions@gmail.co
+- Email: antonio.datasolutions@gmail.com
