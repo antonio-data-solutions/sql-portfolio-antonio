@@ -1,5 +1,3 @@
-Readme do Github
-
 # SQL Portfolio - Antonio Souza
 
 My SQL learning journey with PostgreSQL. This repository contains projects focused on:
@@ -10,13 +8,13 @@ My SQL learning journey with PostgreSQL. This repository contains projects focus
 
 ## Projects
 
-### Project 1: Sales Data Analysis
-- Description: Analyzed sales data to identify trends and top products.
-- Skills: SELECT, JOIN, GROUP BY, window functions.
+### Project 1 – Order Analytics
 
-### Project 2: Data Cleaning
-- Description: Cleaned and transformed a messy dataset using SQL.
-- Skills: UPDATE, DELETE, CASE, data validation.
+Developed SQL queries for a small business sales database, including joins, aggregations, and reporting in PostgreSQL.
+
+Key queries:
+- `03_order_summary_by_status.sql` – order summary by status using GROUP BY and COUNT.
+  - Shows how many orders exist in each status (completed, shipped, pending, cancelled).
 
 ## Contact
-- Email: antonio.datasolutions@gmail.com
+- Email: antonio.datasolutions@gmail.co
