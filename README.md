@@ -136,8 +136,8 @@ Completed as part of a SQL and Data Analytics portfolio.
 
 ## Author
 
-Antonio
+Antonio Souza
 
 ## Copyright
 
-© 2026 Antonio. This project is provided for portfolio and educational purposes.
+© 2026 Antonio Souza. This project is provided for portfolio and educational purposes.
