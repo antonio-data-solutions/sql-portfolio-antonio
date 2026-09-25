@@ -1,12 +1,12 @@
 # Small Business Sales Database
 
-A PostgreSQL database project designed to analyze sales performance, product performance, customer spending, and category results for a small business.
+A PostgreSQL database project designed to analyze sales performance, product performance, customer spending, and category-level results for a small business.
 
 ## Project Overview
 
 This project demonstrates how to build and analyze a relational database using PostgreSQL.
 
-The database includes customer, product, order, and order item data. SQL queries and reusable views are used to generate business insights from the sales data.
+The database includes customer, product, order, and order-item data. SQL queries and reusable views are used to generate business insights from sales data.
 
 ## Business Questions
 
@@ -23,21 +23,23 @@ This project analyzes the following questions:
 
 The database contains the following tables:
 
-- customers
-- products
-- orders
-- order_items
+- `customers`
+- `products`
+- `orders`
+- `order_items`
 
 ## Analysis Views
 
 The project includes the following reusable PostgreSQL views:
 
-- sales_summary
-- product_performance
-- customer_spending
-- category_performance
+- `sales_summary`
+- `product_performance`
+- `customer_spending`
+- `category_performance`
 
-PostgreSQL views store reusable query definitions that can be queried like regular tables. [PostgreSQL CREATE VIEW documentation](https://www.postgresql.org/docs/current/sql-createview.html)
+PostgreSQL views store reusable query definitions that can be queried similarly to regular tables. The underlying query is executed when the view is referenced.
+
+[PostgreSQL CREATE VIEW documentation](https://www.postgresql.org/docs/current/sql-createview.html)
 
 ## Key Results
 
@@ -45,8 +47,8 @@ PostgreSQL views store reusable query definitions that can be queried like regul
 - Different products sold: 10
 - Total units sold: 51
 - Total revenue: 2,326.80
-- Highest single item total: 199.00
-- Lowest single item total: 24.90
+- Highest single-item total: 199.00
+- Lowest single-item total: 24.90
 - Top customer by total spending: Carla Mendes, with 612.90
 - Top product by total revenue: Noise Cancelling Headphone, with 449.70
 - Top category by total revenue: Computer Accessories, with 798.50
@@ -67,21 +69,32 @@ PostgreSQL views store reusable query definitions that can be queried like regul
 - PostgreSQL
 - pgAdmin 4
 - SQL
-- Google Drive for file organization
+- GitHub
+
+## Skills Demonstrated
+
+- Relational database design
+- PostgreSQL table and view creation
+- SQL joins and aggregations
+- Revenue and sales performance analysis
+- Customer spending analysis
+- Category-level analysis
+- Data validation and quality checks
+- Business insight generation
 
 ## Project Files
 
 The SQL folder contains scripts for:
 
-- Creating the database tables.
-- Inserting products and customer data.
-- Inserting order data.
-- Summarizing orders by status.
-- Running basic queries.
-- Validating data quality.
-- Running aggregation queries.
-- Creating analysis views.
-- Creating the sales summary view.
+- Creating the database tables
+- Inserting product and customer data
+- Inserting order data
+- Summarizing orders by status
+- Running basic queries
+- Validating data quality
+- Running aggregation queries
+- Creating analysis views
+- Creating the sales summary view
 
 ## How to Use
 
@@ -111,7 +124,7 @@ FROM category_performance
 ORDER BY total_revenue DESC;
 ```
 
-## Business Insight
+## Business Insights
 
 Computer Accessories generated the highest revenue, while Office Supplies sold the highest number of units.
 
@@ -119,4 +132,12 @@ This suggests that Computer Accessories may contain higher-priced products, whil
 
 ## Project Status
 
-Completed as part of a SQL and data analytics portfolio.
+Completed as part of a SQL and Data Analytics portfolio.
+
+## Author
+
+Antonio
+
+## Copyright
+
+© 2026 Antonio. This project is provided for portfolio and educational purposes.
