@@ -1,4 +1,4 @@
-# Small Business Sales Database
+# Relational Sales Database
 
 A PostgreSQL database project designed to analyze sales performance, product performance, customer spending, and category-level results for a small business.
 
